@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #76d3ff;
+  border-bottom: 4px solid #3F0C1F;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #0022fd;
+  float: left;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+/* END HEADER */
+
+#baslik {
+  margin: 15px;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  opacity: .8;
+}
+
+
+#menu h2{
+  text-align: center;
+}
+
+#chicken, #beef, #sushi {
+  background-color: #a4ff29;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #3F0C1F;
+}
